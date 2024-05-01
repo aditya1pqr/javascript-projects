@@ -1,0 +1,165 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Main-maincontainer{
+    border: 2px solid #0e0d0d;
+    width: 600px;
+    height: 350px;
+}
+.Answer{
+    height: 50px;
+    background-color: #8ddf72;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.row2{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row3{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row4{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.row5{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.ans{
+    /* height: 50px; */
+}
+
+.multiply{
+    width: 200px;
+    padding-left: 100px;
+    padding-top: 20px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.divide{
+    width: 200px;
+    padding-left: 100px;
+    padding-top: 25px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.clear{
+    width: 200px;
+    padding-left: 100px;
+    padding-top: 20px;
+    background-color: #da3c3c;
+    color: aliceblue;
+    font-weight: 900;
+    font-size: 20px;
+}
+.one{
+    width: 200px;
+    padding-left: 100px;
+    padding-top: 20px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.two{
+    width: 200px;
+    padding-left: 100px;
+    padding-top: 25px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.three{
+    width: 200px;
+    padding-left: 100px;
+    padding-top: 25px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.four{
+    width: 200px;
+    padding-left: 100px;
+    padding-top: 25px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.five{
+    width: 200px;
+    padding-left: 100px;
+    padding-top: 25px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.six{
+    width: 200px;
+    padding-left: 100px;
+    padding-top: 25px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.seven{
+    
+    width: 200px;
+    padding-left: 100px;
+    padding-top: 20px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.eight{
+    width: 200px;
+    padding-left: 100px;
+    padding-top: 20px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.nine{
+    width: 200px;
+    padding-left: 100px;
+    padding-top: 20px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.zero{
+    width: 200px;
+    padding-left: 100px;
+    padding-top: 20px;
+    font-weight: 900;
+    font-size: 20px;
+   
+}
+.plus{
+    width: 200px;
+    padding-left: 100px;
+    padding-top: 20px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.minus{
+    width: 200px;
+    padding-left: 100px;
+    padding-top: 20px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.ans{
+   padding-left: 300px;
+   padding-top: 20px;
+   background-color: #db782b;
+   height: 30.90px;
+   font-weight: 900;
+   font-size: 20px;
+}

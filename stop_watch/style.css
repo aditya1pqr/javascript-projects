@@ -1,0 +1,36 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+    margin-left: 90px;
+    padding-top: 40px;
+    color: #22df35;
+}
+.main{
+    background-color: #b66767;
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+   
+}
+.watch{
+    margin-top: 70px;
+    margin-left: 170px;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 900;
+}
+
+button{
+    padding: 8px 8px;
+    margin-top: 100px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: aquamarine;
+}

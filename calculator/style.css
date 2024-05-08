@@ -42,9 +42,7 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.ans{
-    /* height: 50px; */
-}
+
 
 .multiply{
     width: 200px;

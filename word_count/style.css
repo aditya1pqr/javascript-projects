@@ -1,0 +1,36 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.MAINDIV{
+    padding-left: 20px;
+    width: 400px;
+    height: 400px;
+    background: #6f5a5a;
+}
+h1{
+    margin-left: 60px;
+    font-size: 40px;
+    font-weight:900;
+}
+
+.dv1{
+    margin-top: 100px;
+    color: white;
+}
+.dv2{
+    padding-left: 100px;
+    padding-top: 60px;
+    font-size: 30px;
+}
+input{
+    margin-left: 20px;
+}
+p{
+    padding-left: 60px;
+}

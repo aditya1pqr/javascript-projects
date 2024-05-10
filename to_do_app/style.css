@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0px;
 }
+h2{
+    font-size: 40px;
+    padding-bottom: 50px;
+}
 .container{
     height: 100vh;
     width: 100wh;
@@ -12,6 +16,7 @@
     
 }
 .belowcontainer{
+    border-radius: 20px;
     padding-top: 50px;
     padding-left: 80px;
     background: #fff;
@@ -20,18 +25,22 @@
 }
 input{
     border-style: none;
-    padding: 7px  10px;
+    padding: 15px 30px;
     background-color: #7f7979;
-    border-radius: 10px;
-    color:#fff
+    border-radius: 20px;
+    color:#fff;
+    width: 400px;
+    font-size: 20px;
+
 }
 
 button{
-    border-radius: 10px;
-    padding: 7px 10px;
+    border-radius: 20px;
+    padding: 15px 30px;
     border: none;
     background-color: #e4831a;
     color: #fff;
+    font-size: 20px;
 
 }
 
@@ -39,6 +48,29 @@ ul li{
     list-style-type: none;
     margin-top: 20px;
     padding-left: 20px;
-    
+    position: relative;
+    font-size: 20px;
+    cursor: pointer;
+}
 
+span{
+    position: absolute;
+    right: 45px;
+    background-color: #a79393;
+    border-radius: 50%;
+    padding: 0px 4px;
+    color: #170a0a;
+    font-weight: 900;
+    
+}
+span:hover{
+    background-color: rgb(226, 107, 107);
+}
+.checked{
+    text-decoration: line-through;
+    color: rgb(61, 202, 61);
+    cursor: pointer;
+}
+::placeholder{
+    color: #fff;
 }

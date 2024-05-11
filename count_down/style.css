@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(0.25turn, #3f87a6, #99de64, #f69d3c);
+}
+
+.mainconatiner{
+    height: 400px;
+    width: 500px;
+    background-color: #fff;
+    margin-left: 500px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+h2{
+    padding: 50px 0px;
+    padding-left: 30px;
+    font-size: 40px;
+}
+.inputsection{
+    margin-left: 20px;
+}
+input{
+  
+    padding: 10px;
+    width: 300px;
+    border-radius: 15px;  
+    
+}
+button{
+    padding: 10px;
+    width: 100px;
+    background-color: #f69d3c;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    border-radius: 15px;
+
+}
+::placeholder{
+    padding-left: 10px;
+    color: #f69d3c;
+    font-weight: 900;
+}

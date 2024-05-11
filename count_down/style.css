@@ -32,15 +32,35 @@ input{
 button{
     padding: 10px;
     width: 100px;
-    background-color: #f69d3c;
+    background-color: #1f6f07;
     color: #fff;
     font-size: 15px;
     border: none;
     border-radius: 15px;
-
+    cursor: pointer;
 }
 ::placeholder{
     padding-left: 10px;
-    color: #f69d3c;
+    color: #388a12;
     font-weight: 900;
+}
+
+.show{
+    margin-left: 200px;
+    margin-bottom: 60px;
+    font-size: 45px;
+    font-weight: bold;
+    color: #ff0000;
+}
+.reset{
+   margin-top: 50px;
+   margin-left: 170px;
+   padding: 10px 0px 10px 50px;
+    width: 100px;
+    background-color: #c92222;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
 }

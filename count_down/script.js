@@ -6,7 +6,13 @@ let but2=document.querySelector(".reset");
 let val;
 let k
 function addvalues(e){
+    
      val=e.target.value
+     if(val < 0)
+        {
+            alert("Please enter the postive value")
+            
+        }
     
     out.innerHTML=val;
     clearInterval(k)
@@ -15,14 +21,21 @@ function addvalues(e){
 function decvalues(){
     input.value="";
      out.style.color='green';
-     k=setInterval(()=>{
-      val=val-1;
-      out.innerHTML=val;
-      if(val==0)
+    if(val>=0)
         {
-            clearInterval(k)
+            k=setInterval(()=>{
+                val=val-1;
+                out.innerHTML=val;
+                if(val==0)
+                  {
+                      clearInterval(k)
+                  }
+              },1000)
         }
-    },1000)
+        else if(val<0)
+            {
+                setzero();
+            }
 }
 function setzero(){
     clearInterval(k);
